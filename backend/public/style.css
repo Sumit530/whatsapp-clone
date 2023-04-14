@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    padding:0
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container { 
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+.chats{
+width: 30%;
+height: 100%;
+background-color: white
+}
+.message{
+width: 70%;
+height: 100%;
+background-color: rgb(215, 215, 215);
+}
+.sendmessage {
+    position: relative;
+    width: 100%;
+    top: 730px;
+    left: 20px;
+    
+}
+.sendmessage input {
+    width: 80%;
+    height: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+
+}
+.sendmessage button {
+    
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   font-size: 25px;
+   border-radius: 10px;
+   border: none;
+   margin-left: 10px;
+   background-color: white;
+
+}
+.sendmessage button:hover {
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+}
